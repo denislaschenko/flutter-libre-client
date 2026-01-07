@@ -117,3 +117,21 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
+
+# USER ADDITIONS
+
+# IntelliJ/JetBrains IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Security
+.env
+.env.production
+.env.development
+.env.staging
+
+# Exceptions
+!.env.example
